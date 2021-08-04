@@ -1,0 +1,332 @@
+@media only screen and (max-width: 576px) {
+    .d-navbar {
+        display: none;
+    }
+    .section-first-pararaph {
+        max-width: 100% !important;
+    }
+    .m-navbar {
+        display: block !important;
+        padding-bottom: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5) !;
+        border-color: black !important;
+        border-radius: 0px !important;
+    }
+    .section-four-row {
+        flex-direction: column !important;
+    }
+    .col-sm-4-m-device {
+        padding: 15px 23px
+    }
+    .m-svg-section-four {
+        padding-bottom: 25px;
+    }
+    .footer-heading-text {
+        text-align: center;
+    }
+    .m-device-first-section-row {
+        position: relative;
+    }
+    .background-color {
+        padding: 0 !important;
+        flex-direction: column-reverse;
+    }
+    .section-first-container {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    .section-first .row-header h1, .section-second .row-header h1 {
+        font-size: 30px !important;
+    }
+    .section-first .row-part {
+        padding: 0 0 2rem 0 !important;
+    }
+    .section-second .row-part {
+        padding: 3rem 0 !important;
+    }
+    .hr-color {
+        display: none;
+    }
+    .hr-black-color {
+        width: 35% !important;
+        float: inherit !important;
+    }
+    .image-desktop img {
+        position: relative !important;
+        left: 0 !important;
+        z-index: 1 !important;
+        height: 490px !important;
+        width: 575px !important;
+        max-width: 100%;
+    }
+    .row-header {
+        margin-bottom: 15px;
+    }
+    body {
+        text-align: center !important;
+    }
+    .section-three-svg {
+        padding: 50px 0 !important;
+        flex-direction: column !important;
+    }
+    .section-first::after {
+        background-image: url(../images/bg-pattern-intro-right-mobile.svg) !important;
+        height: 322px !important;
+        width: 110px !important;
+        right: 0px;
+        top: 87% !important;
+        max-width: 100%;
+    }
+    .section-first::before {
+        background-image: url(../images/bg-pattern-intro-left-mobile.svg) !important;
+        height: 265px !important;
+        width: 128px !important;
+        top: 50% !important;
+        left: 0% !important;
+    }
+    .d-image {
+        display: none;
+    }
+    .m-image {
+        display: block !important;
+    }
+    .section-three-svg::before {
+        content: '';
+        background-image: url(../images/bg-pattern-how-we-work-mobile.svg) !important;
+        position: absolute;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 34% !important;
+        right: 0% !important;
+        top: 1px !important;
+    }
+    .footer-heading-text {
+        padding: 0 !important;
+    }
+    .section-three .row-header h1 {
+        font-size: 40px !important;
+    }
+    .section-four::before {
+        background-image: url(../images/bg-pattern-footer-mobile.svg) !important;
+        width: 341px !important;
+        height: 160px !important;
+        max-width: 100%;
+    }
+    .modul-heading {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 577px) {
+    .col-sm-4-m-device>h3 {
+        font-size: 18px !important;
+    }
+    .d-navbar {
+        display: none;
+    }
+    .m-navbar {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: black;
+        border-radius: 0px;
+    }
+    .section-four {
+        padding: 2rem 0 !important;
+    }
+    .footer-heading-text {
+        text-align: center;
+    }
+    .m-device-first-section-row {
+        position: relative;
+    }
+    .section-first .row-part {
+        padding: 3rem 0 !important;
+    }
+    .section-second .row-part {
+        padding: 5rem 0 !important;
+    }
+    .background-color {
+        padding: 0 !important;
+        flex-direction: column-reverse;
+    }
+    .section-first .row-header h1, .section-second .row-header h1 {
+        font-size: 30px !important;
+    }
+    .image-desktop img {
+        top: 14% !important;
+        right: 0 !important;
+        width: 238px !important;
+        height: 375px !important;
+    }
+    .hr-color {
+        display: none;
+    }
+    .row-header {
+        margin-top: 0rem !important;
+        margin-bottom: 15px;
+    }
+    .section-three-svg {
+        padding: 30px 0 !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .section-first::before {
+        height: 260px !important;
+        width: 190px !important;
+    }
+    .section-three-svg::before {
+        content: '';
+        background-image: url(../images/bg-pattern-how-we-work-mobile.svg) !important;
+        position: absolute;
+        height: 100%;
+        background-repeat: no-repeat;
+        width: 34% !important;
+        right: 0% !important;
+        top: 1px !important;
+    }
+    .section-three .row-header h1 {
+        font-size: 30px !important;
+    }
+    .section-four::before {
+        height: 172px !important;
+        width: 398px !important;
+    }
+    .modul-heading {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .image-desktop img {
+        width: 322px !important;
+        height: 470px !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .5);
+        border-color: black;
+        border-radius: 0px;
+    }
+    .m-svg-section-four {
+        padding-bottom: 25px;
+    }
+    .footer-heading-text {
+        text-align: center;
+    }
+    .m-device-first-section-row {
+        position: relative;
+    }
+    .section-first .row-part {
+        padding: 3rem 0 !important;
+    }
+    .section-first .row-header h1, .section-second .row-header h1 {
+        font-size: 50px !important;
+    }
+    .section-second .row-part {
+        padding: 10rem 0 !important;
+    }
+    .section-first-pararaph {
+        max-width: 50%;
+        white-space: normal !important;
+    }
+    .section-three-svg {
+        padding: 30px 0 !important;
+        flex-direction: column !important;
+    }
+    .section-first::before {
+        width: 312px !important;
+        height: 65% !important;
+        z-index: 3 !important;
+    }
+    .row-header {
+        margin-top: 0rem !important;
+    }
+    .section-three-svg::before {
+        content: '';
+        background-image: url(../images/bg-pattern-how-we-work-mobile.svg) !important;
+        width: 19% !important;
+        right: 0% !important;
+        top: 0%;
+    }
+    .section-four::before {
+        width: 420px!important;
+        bottom: 5% !important;
+        height: 194px !important;
+        left: -2% !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .image-desktop img {
+        top: 16% !important;
+        left: 53% !important;
+        height: 510px !important;
+        width: 430px !important;
+    }
+    .background-color {
+        padding: 4rem 0rem !important;
+    }
+    .section-first .row-part {
+        padding: 0.1rem 0 !important;
+    }
+    .section-first::after {
+        width: 10% !important;
+    }
+    .section-first::before {
+        height: 73% !important;
+        width: 310px !important;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .section-first .row-header h1, .section-second .row-header h1 {
+        font-size: 50px !important;
+    }
+    .section-three .row-header h1 {
+        font-size: 45px !important;
+    }
+    .section-second .row-part {
+        padding: 10rem 0 10rem !important;
+    }
+    .section-four::before {
+        width: 447px !important;
+        bottom: -22px !important;
+        height: 200px !important;
+    }
+    .section-first-pararaph {
+        max-width: 42%;
+        white-space: normal;
+    }
+}
+
+.container {
+    cursor: pointer;
+}
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 1px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-50deg) translate(-6px, 4px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(46deg) translate(-5px, -5px);
+}
