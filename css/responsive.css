@@ -1,4 +1,7 @@
 @media only screen and (max-width: 576px) {
+    .modal {
+        top: 75px !important;
+    }
     .d-navbar {
         display: none;
     }
@@ -120,6 +123,9 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 577px) {
+    .modal {
+        top: 75px !important;
+    }
     .col-sm-4-m-device>h3 {
         font-size: 18px !important;
     }
@@ -202,6 +208,9 @@
 }
 
 @media only screen and (max-width: 992px) and (min-width: 768px) {
+    .modal {
+        top: 75px !important;
+    }
     .image-desktop img {
         width: 322px !important;
         height: 470px !important;
@@ -257,6 +266,12 @@
         bottom: 5% !important;
         height: 194px !important;
         left: -2% !important;
+    }
+    .modal{
+        position: fixed ;
+        display: flex;
+        flex-direction: column;
+        top: 0;
     }
 }
 

@@ -358,6 +358,18 @@ li {
 
 /* Button to Open the Modal */
 
+.modal {
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    top: 90px;
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+}
 .modal-content{
     color: black;
     padding: 25px;
@@ -413,4 +425,7 @@ li {
 .btn-outline-danger{
     border-radius: 0px;
     padding: 0 30px;
+}
+.modul-part-2{
+    align-self: center;
 }

@@ -45,20 +45,21 @@
                         <a class="nav-link" href="#">Account</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal"
-                            data-target="#myModal">View plans</button>
+                        <button type="button" id="ABC" class="btn btn-outline-dark" onclick="modalopenNav(this)">View plans</button>
                     </li>
+
                 </ul>
             </div>
         </nav>
+
         <div id="myNav" class="overlay m-navbar">
             <div class="overlay-content">
                 <a href="#">How we work</a>
                 <a href="#">Blog</a>
                 <a href="#">Account</a>
                 <div>
-                    <button type="button" id="modul" class="btn btn-outline-dark-overlay mt-2"
-                        onclick="button(this)">View plans</button>
+                    <button type="button" class="btn btn-outline-dark-overlay mt-2" onclick="button(this)">View
+                        plans</button>
                 </div>
             </div>
             <div class="overlay-svg-navbar">
@@ -105,9 +106,10 @@
                                 </p>
                             </div>
                             <div class="mt-4">
-                                <button type="button" class="btn btn-outline-dark-2" data-toggle="modal"
-                                    data-target="#myModal">View plans</button>
+                                <button type="button" id="abc" class="btn btn-outline-dark-2" onclick="modalopenNav(this)">View
+                                    plans</button>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -116,6 +118,7 @@
                 <img class="d-image" src="images/image-intro-desktop.jpg" alt="">
                 <img class="m-image" src="images/image-intro-mobile.jpg" alt="">
             </div>
+            
         </div>
     </section>
 
@@ -251,15 +254,14 @@
             </div>
         </div>
     </footer>
-
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="row modal-card">
+    <div id="modal" class="modal">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
                     <div class="col-sm-6">
                         <img class="subscriben-svg-modul" src="images/SUBSCRIBE-01-3.svg" alt="">
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 modul-part-2">
                         <div>
                             <h1 class="modul-heading">SUBSCRIBE</h1>
                             <h5 class="modul-heading-2">FIRST MONTH FREE!</h5>
@@ -273,17 +275,14 @@
                             <input type="text" class="form-control" id="usr" placeholder="Email Address">
                         </form>
                         <div class="modul-botten">
-                            <button type="button" class="btn btn-link" onclick="modalbutton()">NO THANKS</button>
+                            <button type="button" class="btn btn-link" onclick="modalopenNav()">NO THANKS</button>
                             <button type="button" class="btn btn-outline-dark">SUBMIT</button>
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
